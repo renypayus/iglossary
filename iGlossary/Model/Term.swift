@@ -19,4 +19,5 @@ struct Term: Codable, Hashable, Identifiable {
     var name: String
     var definition: String
     var link: String
+    var linktitle: String
 }
