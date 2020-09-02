@@ -34,10 +34,10 @@ struct ContentView: View {
 }
 ```
 
-**View**
+##### View
 In SwiftUI, Most of every component is called View. Body is a View. Text is a View,  List is another View and a NavigationView is abviously a View.
 
-**Struct**
+##### Struct
 When coding in UIKit we always use `class`  for views rather than `struct`, but in SwiftUI we use `struct` by default to represent common kinds of data.
 
 ## Implementation
