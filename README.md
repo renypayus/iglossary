@@ -108,9 +108,9 @@ Each term have its own definition we will display, so I created **TermDefinition
 # Conclusion
 **Good point I learnt from SwiftUI**
 
-* Faster: SwiftUI help us develop our UI faster, even faster than Storyboards. I can say that me and my former teammate are not a big fan of Interface Builder, so we decided to developing our App without Storyboards, but I did not really enjoy developing the UI because it was really takes time.
+* Faster: SwiftUI help us develop our UI faster, even faster than Storyboards. Me and my former teammate are not a big fan of Interface Builder, so we decided to developing our App without Storyboards back then, but I did not really enjoy developing the UI because it was really takes time.
 * Easy to learn: Since I am more familiar with declarative syntax, it’s easier for me to learn it and I love it.
-*  It has live preview feature and it’s really help.
+* It has live preview feature and it’s really help.
 * It can be mixed with UIKit.
 * It produces a valid layout, so there’s no auto layout related problem. Instead, you can use syntax like VStack, HStack, ZStack, List, Group and more.
 
