@@ -6,6 +6,10 @@ Challenge + Research + UI + UX + Iteration
 https://www.icloud.com/pages/0lRsPoGR1U1RgSZga1wWzQlAA#iGlossary_
 
 
+## Development
+
+### SwiftUI
+
 
 For the first starter, I created a new root file called **TermList.swift**.  Since it will be our main screen and display all of our terms, then I deleted ContentView and changed the SceneDelegate to our new root file. 
 
