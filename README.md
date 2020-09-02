@@ -1,4 +1,4 @@
-# Build iglossary with SwiftUI
+# Rebuild iglossary with SwiftUI
  
 This will be my portfolio on NC3 at Apple Developer Academy @IBL where I learn SwiftUI for the first time
 
@@ -105,7 +105,7 @@ Each term have its own definition we will display, so I created **TermDefinition
 
 
 
-### Conclusion
+# Conclusion
 **Good point I learnt from SwiftUI**
 
 * Faster: SwiftUI help us develop our UI faster, even faster than Storyboards. I can say that me and my former teammate are not a big fan of Interface Builder, so we decided to developing our App without Storyboards, but I did not really enjoy developing the UI because it was really takes time.
@@ -121,7 +121,7 @@ It will only work on devices with IOS 13 and higher so it’s not production rea
 
 
 
-### Further Reading
+# Further Reading
 - [Programming Paradigm] (https://www.geeksforgeeks.org/introduction-of-programming-paradigms/)
 - [SwiftUI] (https://developer.apple.com/xcode/swiftui/)
 - [SwiftUI Documentation] (https://developer.apple.com/documentation/swiftui)
