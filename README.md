@@ -63,6 +63,16 @@ Each term have its own definition we will display, so I created **TermDefinition
 }
 ```
 
+### Search Bar *(On-Going)*
+
+
+
+### Takeaways
+
+
+
+
+### Credits
 
 
 
