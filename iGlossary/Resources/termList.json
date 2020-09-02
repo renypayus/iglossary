@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Algorithm",
+        "definition": "A programming algorithm is a computer procedure that is a lot like a recipe (called a procedure) and tells your computer precisely what steps to take to solve a problem or reach a goal",
+        "link": "https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms",
+    },
+    {
+        "id": 2,
+        "name":"Array",
+        "definition":"Arrays are containers that hold variables; they're used to group together similar variables. You can think of arrays like shelves at a pet store. The array would be the shelf, and the animals in cages are the variables inside.",
+        "link":"https://www.youtube.com/watch?v=NptnmWvkbTw",
+    },
+    {
+        "id": 3,
+        "name":"Bug",
+        "definition":"an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.",
+        "link":"https://www.youtube.com/watch?v=kRL6hjWOKWI",
+    },
+    {
+        "id": 4,
+        "name":"Syntax",
+        "definition":"Set of rules that defines the combinations of symbols that are considered to be a correctly structured document or fragment in that language",
+        "link":"https://dept-info.labri.fr/~strandh/Teaching/MTP/Common/Strandh-Tutorial/syntax.html",
+    }
+]

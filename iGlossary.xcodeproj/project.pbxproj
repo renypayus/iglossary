@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		A99C44B624F8E8C600459219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44B524F8E8C600459219 /* AppDelegate.swift */; };
 		A99C44B824F8E8C600459219 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44B724F8E8C600459219 /* SceneDelegate.swift */; };
-		A99C44BA24F8E8C600459219 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44B924F8E8C600459219 /* ContentView.swift */; };
 		A99C44BC24F8E8C900459219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C44BB24F8E8C900459219 /* Assets.xcassets */; };
 		A99C44BF24F8E8C900459219 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C44BE24F8E8C900459219 /* Preview Assets.xcassets */; };
 		A99C44C224F8E8CA00459219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99C44C024F8E8CA00459219 /* LaunchScreen.storyboard */; };
-		A99C44CA24F98B3800459219 /* GlossaryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44C924F98B3800459219 /* GlossaryList.swift */; };
+		A99C44CF24FD585700459219 /* termList.json in Resources */ = {isa = PBXBuildFile; fileRef = A99C44CE24FD585700459219 /* termList.json */; };
+		A99C44D124FD67FD00459219 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44D024FD67FD00459219 /* Data.swift */; };
+		A99C44D324FD6B7800459219 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44D224FD6B7800459219 /* Term.swift */; };
+		A99C44D524FD704400459219 /* TermList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44D424FD704400459219 /* TermList.swift */; };
+		A99C44DE24FF087A00459219 /* TermDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C44DD24FF087A00459219 /* TermDefinition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A99C44B224F8E8C600459219 /* iGlossary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGlossary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99C44B524F8E8C600459219 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A99C44B724F8E8C600459219 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A99C44B924F8E8C600459219 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A99C44BB24F8E8C900459219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A99C44BE24F8E8C900459219 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A99C44C124F8E8CA00459219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A99C44C324F8E8CA00459219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A99C44C924F98B3800459219 /* GlossaryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryList.swift; sourceTree = "<group>"; };
+		A99C44CE24FD585700459219 /* termList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = termList.json; sourceTree = "<group>"; };
+		A99C44D024FD67FD00459219 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A99C44D224FD6B7800459219 /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		A99C44D424FD704400459219 /* TermList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermList.swift; sourceTree = "<group>"; };
+		A99C44DD24FF087A00459219 /* TermDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDefinition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,12 @@
 		A99C44B424F8E8C600459219 /* iGlossary */ = {
 			isa = PBXGroup;
 			children = (
+				A99C44CC24FD57CE00459219 /* Model */,
+				A99C44CB24FD57A600459219 /* Resources */,
 				A99C44B524F8E8C600459219 /* AppDelegate.swift */,
-				A99C44C924F98B3800459219 /* GlossaryList.swift */,
 				A99C44B724F8E8C600459219 /* SceneDelegate.swift */,
-				A99C44B924F8E8C600459219 /* ContentView.swift */,
+				A99C44D424FD704400459219 /* TermList.swift */,
+				A99C44DD24FF087A00459219 /* TermDefinition.swift */,
 				A99C44BB24F8E8C900459219 /* Assets.xcassets */,
 				A99C44C024F8E8CA00459219 /* LaunchScreen.storyboard */,
 				A99C44C324F8E8CA00459219 /* Info.plist */,
@@ -76,6 +84,23 @@
 				A99C44BE24F8E8C900459219 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A99C44CB24FD57A600459219 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A99C44CE24FD585700459219 /* termList.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A99C44CC24FD57CE00459219 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A99C44D024FD67FD00459219 /* Data.swift */,
+				A99C44D224FD6B7800459219 /* Term.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99C44C224F8E8CA00459219 /* LaunchScreen.storyboard in Resources */,
+				A99C44CF24FD585700459219 /* termList.json in Resources */,
 				A99C44BF24F8E8C900459219 /* Preview Assets.xcassets in Resources */,
 				A99C44BC24F8E8C900459219 /* Assets.xcassets in Resources */,
 			);
@@ -150,9 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99C44B624F8E8C600459219 /* AppDelegate.swift in Sources */,
-				A99C44CA24F98B3800459219 /* GlossaryList.swift in Sources */,
 				A99C44B824F8E8C600459219 /* SceneDelegate.swift in Sources */,
-				A99C44BA24F8E8C600459219 /* ContentView.swift in Sources */,
+				A99C44DE24FF087A00459219 /* TermDefinition.swift in Sources */,
+				A99C44D324FD6B7800459219 /* Term.swift in Sources */,
+				A99C44D124FD67FD00459219 /* Data.swift in Sources */,
+				A99C44D524FD704400459219 /* TermList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
