@@ -1,4 +1,4 @@
-# Build iglossary with SwiftUI
+# Rebuild iglossary with SwiftUI
  
 This will be my portfolio on NC3 at Apple Developer Academy @IBL where I learn SwiftUI for the first time
 
@@ -9,7 +9,7 @@ This will be my portfolio on NC3 at Apple Developer Academy @IBL where I learn S
 
 So, SwiftUI is a declarative framework like React and Vue ✅. Now let’s back to the basic programming knowledge:
 
-What is Declarative Programming?
+**What is Declarative Programming?**
 
 Declarative programming paradigm is a style of programming that expresses the logic of a computation without describing its control flow. It was like you ask your friend to draw a landscape. You don’t care how they draw it, it’s up to them.
 In other words, the approach is to focus on what needs to be achieved instead of instructing how to achieve it.
@@ -34,11 +34,11 @@ struct ContentView: View {
 }
 ```
 
-**View**
-In SwiftUI, Most of every component is called View. Body is a View. Text is a View,  List is another View and a NavigationView is abviously a View.
-
-**Struct**
+#### Struct
 When coding in UIKit we always use `class`  for views rather than `struct`, but in SwiftUI we use `struct` by default to represent common kinds of data.
+
+#### View
+In SwiftUI, Most of every component is called View. Body is a View. Text is a View,  List is another View and a NavigationView is obviously a View.
 
 ## Implementation
 
@@ -73,7 +73,7 @@ struct Term: Codable, Hashable, Identifiable {
 
 ### loading the data
 
-To load our data, we can decode with generic decode function that will returns an array of the corresponding struct that we want to decode. So I created an extension on Data.swift and load our JSON  file into the struct. 
+To load our data, we can decode with generic decode function that will returns an array of the corresponding struct that we want to decode. So I created an extension on **Data.swift** and load our JSON  file into the struct. 
 
 ```swift
 let termList: [Term] = load("termList.json")
@@ -105,12 +105,12 @@ Each term have its own definition we will display, so I created **TermDefinition
 
 
 
-### Conclusion
+# Conclusion
 **Good point I learnt from SwiftUI**
 
-* Faster: SwiftUI help us develop our UI faster, even faster than Storyboards. I can say that me and my former teammate are not a big fan of Interface Builder, so we decided to developing our App without Storyboards, but I did not really enjoy developing the UI because it was really takes time.
+* Faster: SwiftUI help us develop our UI faster, even faster than Storyboards. Me and my former teammate are not a big fan of Interface Builder, so we decided to developing our App without Storyboards back then, but I did not really enjoy developing the UI because it was really takes time.
 * Easy to learn: Since I am more familiar with declarative syntax, it’s easier for me to learn it and I love it.
-*  It has live preview feature and it’s really help.
+* It has live preview feature and it’s really help.
 * It can be mixed with UIKit.
 * It produces a valid layout, so there’s no auto layout related problem. Instead, you can use syntax like VStack, HStack, ZStack, List, Group and more.
 
@@ -121,7 +121,7 @@ It will only work on devices with IOS 13 and higher so it’s not production rea
 
 
 
-### Further Reading
+# Further Reading
 - [Programming Paradigm] (https://www.geeksforgeeks.org/introduction-of-programming-paradigms/)
 - [SwiftUI] (https://developer.apple.com/xcode/swiftui/)
 - [SwiftUI Documentation] (https://developer.apple.com/documentation/swiftui)
