@@ -90,6 +90,8 @@ List(termList) { term in
 
 ```
 
+![Main Screen](https://raw.githubusercontent.com/renypayus/iglossary/master/main%20screen.png)
+
 ### Showing the detail
 Each term have its own definition we will display, so I created **TermDefinition.swift** to represent it, and we also had to  navigate our term on main screen, so I modified the List again.
 
@@ -100,6 +102,8 @@ Each term have its own definition we will display, so I created **TermDefinition
     }
 }
 ```
+
+![Definition Screen](https://raw.githubusercontent.com/renypayus/iglossary/master/definition%20screen.png)
 
 ### Search Bar *(On-Going)*
 
