@@ -97,7 +97,7 @@ Each term have its own definition we will display, so I created **TermDefinition
 
 ![Definition Screen](https://raw.githubusercontent.com/renypayus/iglossary/master/definition%20screen.png)
 
-We also had to  navigate our term on main screen, so I modified the List again.
+We also had to  navigate each term to its definition, so I modified the List again.
 
 ```swift
  List(termList) { term in
