@@ -9,7 +9,7 @@ This will be my portfolio on NC3 at Apple Developer Academy @IBL where I learn S
 
 So, SwiftUI is a declarative framework like React and Vue ✅. Now let’s back to the basic programming knowledge:
 
-What is Declarative Programming?
+**What is Declarative Programming?**
 
 Declarative programming paradigm is a style of programming that expresses the logic of a computation without describing its control flow. It was like you ask your friend to draw a landscape. You don’t care how they draw it, it’s up to them.
 In other words, the approach is to focus on what needs to be achieved instead of instructing how to achieve it.
@@ -34,11 +34,11 @@ struct ContentView: View {
 }
 ```
 
-#### View
-In SwiftUI, Most of every component is called View. Body is a View. Text is a View,  List is another View and a NavigationView is abviously a View.
-
 #### Struct
 When coding in UIKit we always use `class`  for views rather than `struct`, but in SwiftUI we use `struct` by default to represent common kinds of data.
+
+#### View
+In SwiftUI, Most of every component is called View. Body is a View. Text is a View,  List is another View and a NavigationView is abviously a View.
 
 ## Implementation
 
