@@ -38,7 +38,7 @@ struct ContentView: View {
 When coding in UIKit we always use `class`  for views rather than `struct`, but in SwiftUI we use `struct` by default to represent common kinds of data.
 
 #### View
-In SwiftUI, Most of every component is called View. Body is a View. Text is a View,  List is another View and a NavigationView is abviously a View.
+In SwiftUI, Most of every component is called View. Body is a View. Text is a View,  List is another View and a NavigationView is obviously a View.
 
 ## Implementation
 
@@ -73,7 +73,7 @@ struct Term: Codable, Hashable, Identifiable {
 
 ### loading the data
 
-To load our data, we can decode with generic decode function that will returns an array of the corresponding struct that we want to decode. So I created an extension on Data.swift and load our JSON  file into the struct. 
+To load our data, we can decode with generic decode function that will returns an array of the corresponding struct that we want to decode. So I created an extension on **Data.swift** and load our JSON  file into the struct. 
 
 ```swift
 let termList: [Term] = load("termList.json")
