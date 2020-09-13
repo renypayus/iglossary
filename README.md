@@ -59,7 +59,7 @@ Second, I prepared our JSON file that contain all of the terms we need to displa
 
 ```
 
-Third, I created term structure on **Term.swift** that will store all the data we need to build this App. This struct will confirm to Codable, Hashable, and also Identifiable so that our list can iterate over the term list.
+Third, I created term structure on **Term.swift** that will store all the data we need to build this App. This struct will confirm to `Codable`, `Hashable`, and also `Identifiable` so that our list can iterate over the term list.
 
 ```swift
 struct Term: Codable, Hashable, Identifiable {
